@@ -1,4 +1,4 @@
-# OWNER_APP-FAWAD
+# OWNER_APP-Airbnb
 
 A React Native mobile application for property owners to manage real estate listings. Built with Expo and Firebase, this app allows users to create, view, and manage property listings with ease.
 
@@ -40,9 +40,9 @@ OWNER_APP-FAWAD/
 +-- app.json                  # Expo configuration
 +-- package.json              # Project dependencies
 +-- screens/
-¦   +-- Login.js             # User authentication screen
-¦   +-- CreateListing.js     # Property listing creation form
-¦   +-- ViewListings.js      # Property listings display
+   +-- Login.js             # User authentication screen
+   +-- CreateListing.js     # Property listing creation form
+   +-- ViewListings.js      # Property listings display
 +-- assets/                   # Images and static assets
 `
 
@@ -56,13 +56,13 @@ OWNER_APP-FAWAD/
 ## Installation
 
 1. **Clone the repository**
-   `ash
+   `ssh
    git clone <repository-url>
    cd OWNER_APP-FAWAD
    `
 
 2. **Install dependencies**
-   `ash
+   `ssh
    npm install
    `
 
@@ -76,22 +76,22 @@ OWNER_APP-FAWAD/
 ## Running the Application
 
 ### Start the Expo development server
-`ash
+`ssh
 npm start
 `
 
 ### Run on Android
-`ash
+`ssh
 npm run android
 `
 
 ### Run on iOS
-`ash
+`ssh
 npm run ios
 `
 
 ### Run on Web
-`ash
+`ssh
 npm run web
 `
 

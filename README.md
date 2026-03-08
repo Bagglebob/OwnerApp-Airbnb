@@ -56,15 +56,15 @@ OWNER_APP/
 ## Installation
 
 1. **Clone the repository**
-   `ssh
+   ```ssh
    git clone <repository-url>
    cd OWNER_APP-FAWAD
-   `
+   ```
 
 2. **Install dependencies**
-   `ssh
+   ```ssh
    npm install
-   `
+   ```
 
 3. **Configure Firebase**
    - Add your Firebase credentials to firebaseConfig.js
@@ -76,24 +76,24 @@ OWNER_APP/
 ## Running the Application
 
 ### Start the Expo development server
-`ssh
+```ssh
 npm start
-`
+```
 
 ### Run on Android
-`ssh
+```ssh
 npm run android
-`
+```
 
 ### Run on iOS
-`ssh
+```ssh
 npm run ios
-`
+```
 
 ### Run on Web
-`ssh
+```ssh
 npm run web
-`
+```
 
 Once the server is running, scan the QR code with Expo Go app (mobile) or press the corresponding key in the terminal to run on your preferred platform.
 
@@ -123,14 +123,14 @@ Once the server is running, scan the QR code with Expo Go app (mobile) or press 
 
 ### Environment Variables
 Create a .env.local file in the root directory with your Firebase configuration (optional for local development):
-`
+```
 FIREBASE_API_KEY=your_api_key
 FIREBASE_AUTH_DOMAIN=your_auth_domain
 FIREBASE_PROJECT_ID=your_project_id
 FIREBASE_STORAGE_BUCKET=your_storage_bucket
 FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 FIREBASE_APP_ID=your_app_id
-`
+```
 
 ## Current Development Status
 

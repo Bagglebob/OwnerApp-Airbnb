@@ -33,7 +33,7 @@ OWNER_APP-FAWAD is a property listing management application designed for proper
 ## Project Structure
 
 ```
-OWNER_APP-FAWAD/
+OWNER_APP/
 +-- App.js                    # Main application component, navigation setup
 +-- index.js                  # Entry point
 +-- firebaseConfig.js         # Firebase configuration
